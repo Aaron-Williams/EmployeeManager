@@ -35,7 +35,7 @@ namespace EmployeeManager
     public EmployeesManager()
     {
       Employees = new ObservableCollection<Employee>();
-
+      Console.WriteLine("here!!");
       FillData();
     }
 
